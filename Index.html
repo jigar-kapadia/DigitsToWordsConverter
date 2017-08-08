@@ -1,0 +1,36 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+    <script src="Scripts/jquery-1.9.1.js"></script>
+    <script src="Scripts/bootstrap.min.js"></script>
+    <link href="Content/bootstrap.min.css" rel="stylesheet" />
+    <script src="js/main.js"></script>
+    <link href="Content/style.css" rel="stylesheet" />
+</head>
+<body>
+    
+    <div class="fullCont">
+        <div id="mainDiv">
+            <div>
+                <h2>Digits To Word Converter</h2>
+            </div>
+            
+            <div id="dvInput">
+                <label>Enter Digit : </label>
+                <input type="text" id="txtInput"/>
+                <label id="Error" style="color:red;display:none">Please Enter Valid Number</label>
+            </div>
+            <div style="margin-top:10px">
+                <input type="button" id="btnConvert" value="Convert" class="btn btn-primary btn-sm" />
+            </div>
+            <div id="dvResults" class="row">
+                <label>Results</label>
+                <div style="border: 1px solid black;width: 70%; margin-left: 66px; ">
+                    <label id="result"></label>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
